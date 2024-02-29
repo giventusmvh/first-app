@@ -11,7 +11,7 @@ import ProductRow from "../components/products/ProductRow";
 const Home = () => {
   return (
     <SafeAreaView>
-      <View style={styles.appBarWrapper}>
+      {/* <View style={styles.appBarWrapper}>
         <View style={styles.appBar}>
           <Ionicons name="location-outline" size={24} />
 
@@ -26,9 +26,9 @@ const Home = () => {
             </TouchableOpacity>
           </View>
         </View>
-      </View>
+      </View> */}
 
-      <ScrollView style={{ marginBottom: 100 }}>
+      <ScrollView style={{ marginBottom: 60, marginTop: 20 }}>
         <Welcome />
         <Carousel />
         <Headings />

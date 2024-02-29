@@ -4,10 +4,11 @@ import { COLORS, SIZES } from "../../constants";
 const styles = StyleSheet.create({
   container: {
     width: 182,
-    height: 240,
+    height: 270,
     marginEnd: 22,
     borderRadius: SIZES.medium,
     backgroundColor: COLORS.secondary,
+    paddingBottom: 6,
   },
   imageContainer: {
     flex: 1,
@@ -23,6 +24,25 @@ const styles = StyleSheet.create({
   },
   details: {
     padding: SIZES.small,
+  },
+  title: {
+    fontFamily: "bold",
+    fontSize: SIZES.large,
+    marginBottom: 2,
+  },
+  supplier: {
+    fontFamily: "regular",
+    fontSize: SIZES.small,
+    color: COLORS.gray,
+  },
+  price: {
+    fontFamily: "bold",
+    fontSize: SIZES.medium,
+  },
+  addBtn: {
+    position: "absolute",
+    right: SIZES.xSmall,
+    bottom: SIZES.xSmall,
   },
 });
 

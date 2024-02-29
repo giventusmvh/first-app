@@ -10,8 +10,8 @@ const Welcome = () => {
   return (
     <View>
       <View style={styles.container}>
-        <Text style={styles.welcomeText(COLORS.black, SIZES.xSmall)}>Find The Most</Text>
-        <Text style={styles.welcomeText(COLORS.primary, 0)}>Luxurious Furniture</Text>
+        <Text style={styles.welcomeText(COLORS.black, SIZES.xSmall)}>Kasih Judul</Text>
+        <Text style={styles.welcomeText(COLORS.primary, 0)}>sama slogan kalo ada</Text>
       </View>
 
       <View style={styles.searchContainer}>
